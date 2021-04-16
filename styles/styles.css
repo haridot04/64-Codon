@@ -1,0 +1,216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #00aeef;
+  /* margin: 0 3%; */
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #562e90;
+}
+
+p {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #2f2f2f;
+}
+
+h5 {
+  font-weight: 100;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+em {
+  font-weight: 900;
+  font-style: normal;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 2%;
+  align-items: center;
+  min-height: 8vh;
+  width: 95%;
+  /* background-color: #000000; */
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-logo img {
+  width: 10rem;
+  height: auto;
+  margin-left: 5px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  margin: 2rem;
+  color: #ffffff;
+}
+
+.header-right a {
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #00aeef;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+.hr-tag {
+  padding-top: 0.4%;
+}
+
+.hr-tag hr {
+  background-color: #572e91;
+  width: 98%;
+  margin: auto;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+.banner-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2%;
+}
+
+.banner-content {
+  width: 60%;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1000;
+}
+
+video {
+  width: 100%;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  min-height: 20vh;
+  background-color: #00597b;
+  text-align: center;
+}
+
+.support-icons {
+  margin: 0 3%;
+  padding-top: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.support-icons img {
+  height: 4rem;
+  opacity: 0.7;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  padding: 5% 2%;
+}
+
+.about-content {
+  width: 60%;
+}
+
+.about-content h3 {
+  padding-bottom: 1rem;
+}
+
+.about-logo {
+  width: 40%;
+}
+
+.about-logo img {
+  width: 20rem;
+}
+
+.founded {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0;
+  padding: 0 2%;
+}
+
+.f2006 {
+  text-align: center;
+}
+
+.vission-mission {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.biobanking {
+  margin: 5% 0;
+  padding: 0 2%;
+  width: 70%;
+}
