@@ -50,6 +50,7 @@ nav {
   align-items: center;
   min-height: 8vh;
   width: 95%;
+
   /* background-color: #000000; */
 }
 
@@ -92,6 +93,7 @@ nav {
   padding: 0.8rem 1.5rem;
   border: 1px solid #00aeef;
   text-decoration: none;
+  color: #fff;
 }
 
 .burger {
@@ -119,8 +121,9 @@ nav {
 .banner {
   display: flex;
   align-items: center;
+  position: relative;
   margin: auto;
-  height: 100vh;
+  height: 98vh;
 }
 
 .banner-flex {
@@ -138,11 +141,14 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  height: auto;
   z-index: -1000;
 }
 
 video {
   width: 100%;
+  height: 98vh;
+  object-fit: fill;
 }
 
 .support {
