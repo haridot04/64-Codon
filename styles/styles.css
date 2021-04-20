@@ -46,12 +46,17 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 2%;
+  padding: 0 2%;
   align-items: center;
-  min-height: 8vh;
-  width: 95%;
+  min-height: 5vh;
+  width: 100%;
 
   /* background-color: #000000; */
+}
+
+.solid-nav {
+  background-color: #572e91;
+  transition: background-color 0.2s linear;
 }
 
 .header-left {
@@ -78,7 +83,7 @@ nav {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 .nav-links a {
