@@ -15,7 +15,7 @@ h2 {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #572e91;
 }
 
 h3 {
@@ -32,7 +32,7 @@ p {
 
 h5 {
   font-weight: 100;
-  color: #ffffff;
+  color: #00aeef;
   font-size: 1rem;
 }
 
@@ -91,14 +91,14 @@ nav {
   font-family: "Lato", sans-serif;
   font-weight: 100;
   margin: 2rem;
-  color: #ffffff;
+  color: #00aeef;
 }
 
 .header-right a {
   padding: 0.8rem 1.5rem;
   border: 1px solid #00aeef;
   text-decoration: none;
-  color: #fff;
+  color: #00aeef;
 }
 
 .burger {
@@ -200,7 +200,7 @@ video {
 }
 
 .about-logo img {
-  width: 20rem;
+  width: 30rem;
 }
 
 .founded {
@@ -225,3 +225,166 @@ video {
   padding: 0 2%;
   width: 70%;
 }
+
+.journey {
+  margin: 5% 0;
+  padding: 0 2%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 15vh;
+  background-image: url(/asset/images/journey-bg.png);
+}
+
+.journey h2 {
+  color: #fff;
+}
+
+/* TimeLine styles Starts */
+
+.hr-time {
+  border: 1px solid #572e91;
+}
+
+.timeline {
+  position: relative;
+  margin: 5px auto;
+  padding: 40px 0;
+  width: 1200px;
+  box-sizing: border-box;
+  height: 60vh;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 45vh;
+  background: #572e91;
+}
+
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 100px 40px;
+  box-sizing: border-box;
+}
+
+.timeline ul li h5 {
+  color: #7c7c7c;
+  font-size: 1.2rem;
+}
+
+.timeline li:nth-child(odd) {
+  float: left;
+  text-align: left;
+  clear: both;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+.timeline li:nth-child(even) {
+  float: right;
+  text-align: right;
+  clear: both;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+.content {
+  padding-bottom: 20px;
+}
+.timeline li:nth-child(odd):before {
+  content: "";
+  position: absolute;
+  top: 19px;
+  right: -6px;
+  width: 10px;
+  height: 10px;
+  background-color: #572e91;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 3px (233, 33, 99, 0.2);
+}
+.timeline li:nth-child(even):before {
+  content: "";
+  position: absolute;
+  top: 42px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background-color: #572e91;
+  border-radius: 50%;
+  box-sizing: 0 0 0 3px (233, 33, 99, 0.2);
+}
+
+.timeline li:nth-child(3):before {
+  top: 66px;
+}
+
+.timeline ul li .iimk {
+  color: #00aeef;
+}
+
+.timeline ul li .time h4 {
+}
+.timeline li:nth-child(odd) .time {
+  position: absolute;
+  top: 10px;
+  right: -80px;
+  color: #7c7c7c;
+}
+.timeline li:nth-child(even) .time {
+  position: absolute;
+  top: 30px;
+  left: -80px;
+  margin: 0;
+  color: #7c7c7c;
+}
+
+.timeline li:nth-child(3) .time {
+  top: 58px;
+}
+
+@media (max-width: 1000px) {
+  .timeline {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 20px;
+  }
+  .timeline {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  .timeline:before {
+    left: 20px;
+  }
+  .timeline li:nth-child(old),
+  .timeline li:nth-child(even) {
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+  .timeline li:nth-child(odd):before,
+  .timeline li:nth-child(even):before {
+    top: -18px;
+    left: 16px;
+    right: inherit;
+  }
+  .timeline li:nth-child(odd).time,
+  .timeline li:nth-child(even).time {
+    top: -30px;
+    left: 50px;
+    right: inherit;
+  }
+}
+
+/* Timeline Style Ends */
