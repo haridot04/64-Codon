@@ -26,7 +26,7 @@ h3 {
 
 p {
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #2f2f2f;
 }
 
@@ -121,6 +121,14 @@ nav {
   background-color: #572e91;
   width: 98%;
   margin: auto;
+}
+
+.particles-js {
+  display: none;
+}
+
+.count-particles {
+  display: none;
 }
 
 .banner {
@@ -223,7 +231,8 @@ video {
 .biobanking {
   margin: 5% 0;
   padding: 0 2%;
-  width: 70%;
+  width: 100%;
+  background-image: url(/asset/images/bg.jpg);
 }
 
 .journey {
@@ -388,3 +397,115 @@ video {
 }
 
 /* Timeline Style Ends */
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background-image: url(/asset/images/bg.jpg);
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 5% 2%;
+  padding-bottom: 20px;
+  width: 75%;
+  text-align: left;
+}
+
+.mySlides p {
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: left;
+  padding: 20px 2%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Animation Background */
+
+/* ---- reset ---- */
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fcfcfc;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+/* Mobile View */
+
+@media (max-width: 1000px) {
+  .video-bg {
+    display: none;
+  }
+
+  .banner {
+    height: 100%;
+  }
+
+  .particles-js {
+    display: block;
+  }
+
+  .count-particles {
+    display: block;
+  }
+}
