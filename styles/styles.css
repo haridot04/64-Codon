@@ -259,9 +259,9 @@ video {
   position: relative;
   margin: 5px auto;
   padding: 40px 0;
-  width: 1200px;
+  width: 90%;
   box-sizing: border-box;
-  height: 60vh;
+  height: 35rem;
 }
 
 .timeline:before {
@@ -269,7 +269,7 @@ video {
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 45vh;
+  height: 25rem;
   background: #572e91;
 }
 
@@ -357,10 +357,35 @@ video {
   top: 58px;
 }
 
+@media (max-width: 1200px) {
+  .timeline:before {
+    height: 20rem;
+  }
+  .timeline ul li h5 {
+    font-size: 1rem;
+  }
+
+  .timeline li:nth-child(odd):before {
+    top: 16px;
+  }
+
+  .timeline li:nth-child(even):before {
+    top: 35px;
+  }
+
+  .timeline li:nth-child(3):before {
+    top: 54px;
+  }
+}
+
 @media (max-width: 1000px) {
   .timeline {
     width: 80%;
     padding-bottom: 0px;
+  }
+
+  .timeline:before {
+    height: 18rem;
   }
 
   .timeline ul li {
@@ -368,7 +393,65 @@ video {
   }
 
   .timeline ul li h5 {
+    font-size: 0.8rem;
+  }
+
+  .timeline li:nth-child(odd):before {
+    top: 12px;
+  }
+
+  .timeline li:nth-child(even):before {
+    top: 28px;
+  }
+
+  .timeline li:nth-child(3):before {
+    top: 44px;
+  }
+}
+
+@media (max-width: 800px) {
+  .timeline ul li h5 {
+    font-size: 0.7rem;
+  }
+
+  .timeline li:nth-child(odd):before {
+    top: 10px;
+  }
+
+  .timeline li:nth-child(even):before {
+    top: 24px;
+  }
+
+  .timeline li:nth-child(3):before {
+    top: 38px;
+  }
+}
+
+@media (max-width: 650px) {
+  .timeline li:nth-child(even):before {
+    top: 38px;
+  }
+}
+
+@media (max-width: 500px) {
+  .timeline:before {
+    height: 16rem;
+  }
+
+  .timeline ul li h5 {
     font-size: 0.5rem;
+  }
+
+  .timeline li:nth-child(odd):before {
+    top: 6px;
+  }
+
+  .timeline li:nth-child(even):before {
+    top: 25px;
+  }
+
+  .timeline li:nth-child(3):before {
+    top: 26px;
   }
 }
 
