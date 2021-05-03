@@ -222,7 +222,7 @@ video {
   text-align: center;
 }
 
-.vission-mission {
+.vision-mission {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -357,42 +357,21 @@ video {
   top: 58px;
 }
 
+
 @media (max-width: 1000px) {
   .timeline {
-    width: 100%;
-  }
-}
-@media (max-width: 767px) {
-  h1 {
-    text-align: center;
-    font-size: 40px;
-    padding: 0px 20px;
-  }
-  .timeline {
-    width: 100%;
+    width: 80%;
     padding-bottom: 0px;
   }
-  .timeline:before {
-    left: 20px;
+
+  .timeline ul li {
+    padding: 0;
   }
-  .timeline li:nth-child(old),
-  .timeline li:nth-child(even) {
-    width: 100%;
-    text-align: left;
-    padding-left: 50px;
-    padding-bottom: 50px;
+
+  .timeline ul li h5{
+    font-size: 0.5rem;
   }
-  .timeline li:nth-child(odd):before,
-  .timeline li:nth-child(even):before {
-    top: -18px;
-    left: 16px;
-    right: inherit;
-  }
-  .timeline li:nth-child(odd).time,
-  .timeline li:nth-child(even).time {
-    top: -30px;
-    left: 50px;
-    right: inherit;
+  
   }
 }
 
@@ -648,6 +627,10 @@ footer {
 /* Mobile View */
 
 @media (max-width: 1000px) {
+
+  p{
+    font-size: 0.7rem;
+  }
   .video-bg {
     display: none;
   }
@@ -723,4 +706,57 @@ footer {
   .about-logo {
     display: none;
   }
+
+  .vision-mission{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mission h3{
+    text-align: right;
+  }
+  .mission p{
+    text-align: right;
+  }
+
+  .mySlides{
+    width: 95%;
+  }
+
+  .contact-us{
+    padding: 10% 2%;
+  }
+
+  .form-div{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  input{
+    width: 80%;
+    margin: 3% 0;
+  }
+
+  textarea{
+    width: 80%;
+  }
+
+  .custom-radio{
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-left img{
+    width: 5rem;
+  }
+
+  .footer-right h3{
+    font-size: 1rem;
+  }
+
+  .footer-right p{
+    font-size: 0.5rem;
+  }
+
+ 
 }
