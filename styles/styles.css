@@ -232,7 +232,7 @@ video {
   margin: 5% 0;
   padding: 0 2%;
   width: 100%;
-  background-image: url(asset/images/bg.jpg);
+  background-image: url(../asset/images/bg.jpg);
 }
 
 .journey {
@@ -242,7 +242,7 @@ video {
   justify-content: left;
   align-items: center;
   height: 15vh;
-  background-image: url(asset/images/journey-bg.png);
+  background-image: url(../asset/images/journey-bg.png);
 }
 
 .journey h2 {
@@ -357,7 +357,6 @@ video {
   top: 58px;
 }
 
-
 @media (max-width: 1000px) {
   .timeline {
     width: 80%;
@@ -368,10 +367,8 @@ video {
     padding: 0;
   }
 
-  .timeline ul li h5{
+  .timeline ul li h5 {
     font-size: 0.5rem;
-  }
-  
   }
 }
 
@@ -487,7 +484,7 @@ textarea {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  background-image: url(asset/images/bg.jpg);
+  background-image: url(../asset/images/bg.jpg);
 }
 
 /* Slides */
@@ -627,8 +624,7 @@ footer {
 /* Mobile View */
 
 @media (max-width: 1000px) {
-
-  p{
+  p {
     font-size: 0.7rem;
   }
   .video-bg {
@@ -707,56 +703,54 @@ footer {
     display: none;
   }
 
-  .vision-mission{
+  .vision-mission {
     display: flex;
     flex-direction: column;
   }
 
-  .mission h3{
+  .mission h3 {
     text-align: right;
   }
-  .mission p{
+  .mission p {
     text-align: right;
   }
 
-  .mySlides{
+  .mySlides {
     width: 95%;
   }
 
-  .contact-us{
+  .contact-us {
     padding: 10% 2%;
   }
 
-  .form-div{
+  .form-div {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  input{
+  input {
     width: 80%;
     margin: 3% 0;
   }
 
-  textarea{
+  textarea {
     width: 80%;
   }
 
-  .custom-radio{
+  .custom-radio {
     flex-direction: row;
     align-items: center;
   }
 
-  .footer-left img{
+  .footer-left img {
     width: 5rem;
   }
 
-  .footer-right h3{
+  .footer-right h3 {
     font-size: 1rem;
   }
 
-  .footer-right p{
+  .footer-right p {
     font-size: 0.5rem;
   }
-
- 
 }
