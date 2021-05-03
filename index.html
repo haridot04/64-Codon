@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/bc4809be48.js"></script>
+    
 
     <link rel="stylesheet" href="styles/styles.css" />
 
@@ -242,21 +243,66 @@
       </div>
 
       <div class="contact-us">
-        <form action="">
 
-          <input type="text" id="name" name="name" placeholder="Name" autocomplete="off"> 
-          <input type="text" id="companyName" name="companyName" placeholder="Company name" autocomplete="off">
-          <h5>I am</h5>
-          <input type="radio" id="channelPartner" name="channelPartner" value="channelPartner">
-          <input type="radio" id="endUser" name="endUser" value="endUser">
-          <input type="email" name="email" id="email" placeholder="Email">
-          <input type="number" name="number" id="number" placeholder="Mobile Number">
-          <input type="text" id="message" name="message" placeholder="Your message" autocomplete="off"> 
-          <input type="submit" name="" id="">
+        <h2><em>Contact</em> Us</h2>
+        <form action="">
+          <div class="form-div">
+            <input type="text" id="name" name="name" placeholder="Name" autocomplete="off"> 
+            <input type="text" id="companyName" name="companyName" placeholder="Company name" autocomplete="off">         
+          </div>
+          
+           <h5>I am a</h5>
+           <div class="form-div custom-radio">
+            <input type="radio" id="channelPartner" name="radio" value="channelPartner" checked>
+            <label for="channelPartner">
+              <span>
+                <img src="/asset/images/tick(1).png" alt="Checked Icon" />
+              </span>
+            </label>
+            <h5>Channel Partner</h5>
+            <input type="radio" id="endUser" name="radio" value="endUser">
+            <label for="endUser">
+              <span>
+                <img src="/asset/images/tick(1).png" alt="Checked Icon" />
+              </span>
+            </label>
+            <h5>End User</h5>
+           </div>
+
+           <div class="form-div">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="number" name="number" id="number" placeholder="Mobile Number">
+           </div>
+          
+          
+          <textarea name="message" id="message" cols="20" rows="5" value="Your message" placeholder="Your Message"></textarea> <br>
+          <div class="button">
+            <button class=""><h5>Submit</h5></button>
+          </div>
 
         </form>
       </div>
-    
+
+
+      <footer>
+        <div class="footer-left">
+          <a href=""><img src="/asset/images/64 for footer.png" alt=""></a>          
+          <div class="icons">
+            <a href=""><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h3>64 Codon</h3>
+          <p>Lorem ipsum dolor <br>
+            sit amet, consectetur adipiscing elit. <br>
+             Aliquam feugiat dignissim eleifend. <br>
+             Pellentesque nec metus vitae dui  </p>
+        </div>
+      </footer>
+     
+      
      
 
 
