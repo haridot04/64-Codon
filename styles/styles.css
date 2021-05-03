@@ -253,6 +253,7 @@ video {
 
 .hr-time {
   border: 1px solid #572e91;
+  background-color: #572e91;
 }
 
 .timeline {
@@ -410,6 +411,10 @@ video {
 }
 
 @media (max-width: 800px) {
+  .timeline {
+    height: 25rem;
+  }
+
   .timeline ul li h5 {
     font-size: 0.7rem;
   }
