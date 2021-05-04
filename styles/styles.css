@@ -24,6 +24,10 @@ h3 {
   color: #562e90;
 }
 
+i {
+  color: #562e90;
+}
+
 p {
   font-weight: 300;
   font-size: 1.1rem;
@@ -101,6 +105,10 @@ nav {
   color: #00aeef;
 }
 
+#contact {
+  display: none;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -121,14 +129,6 @@ nav {
   background-color: #572e91;
   width: 98%;
   margin: auto;
-}
-
-.particles-js {
-  display: none;
-}
-
-.count-particles {
-  display: none;
 }
 
 .banner {
@@ -164,6 +164,48 @@ video {
   object-fit: fill;
 }
 
+.heading-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1000;
+}
+
+.heading-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  height: 25vh;
+  background-image: url(../asset/images/bg\ enduser.jpg);
+  background-size: cover;
+}
+
+.heading-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2%;
+}
+
+.heading-content h3 {
+  font-size: 1.5rem;
+  padding: 1% 2% 0 2%;
+  color: #fff;
+}
+
+.end-content {
+  padding: 5% 2% 2% 2%;
+  width: 70%;
+}
+
+.end-content p,
+h3,
+h5 {
+  padding: 1%;
+}
+
 .support {
   display: flex;
   flex-direction: column;
@@ -197,6 +239,7 @@ video {
 
 .about-content {
   width: 60%;
+  padding-right: 1%;
 }
 
 .about-content h3 {
@@ -222,17 +265,9 @@ video {
   text-align: center;
 }
 
-.vision-mission {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.biobanking {
-  margin: 5% 0;
-  padding: 0 2%;
-  width: 100%;
-  background-image: url(../asset/images/bg.jpg);
+.vision h3,
+.mission h3 {
+  color: #fff;
 }
 
 .journey {
@@ -573,6 +608,7 @@ textarea {
 .slideshow-container {
   position: relative;
   background-image: url(../asset/images/bg.jpg);
+  background-size: cover;
 }
 
 /* Slides */
@@ -616,13 +652,12 @@ textarea {
 
 /* Animation Background */
 
-/* ---- reset ---- */
 canvas {
   display: block;
   vertical-align: bottom;
-} /* ---- particles.js container ---- */
+}
 #particles-js {
-  display: none;
+  /* display: none; */
   position: absolute;
   width: 100%;
   height: 100%;
@@ -631,7 +666,8 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-} /* ---- stats.js ---- */
+  z-index: -1000;
+}
 .count-particles {
   background: #000022;
   position: absolute;
@@ -737,7 +773,7 @@ footer {
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 40vh;
+    height: 75%;
     top: 8vh;
     display: none;
     flex-direction: column;
@@ -748,6 +784,10 @@ footer {
 
   .nav-links li {
     opacity: 0px;
+  }
+
+  #contact {
+    display: block;
   }
 
   .burger {
@@ -768,6 +808,14 @@ footer {
   }
   .active-burger {
     display: none;
+  }
+
+  .end-content {
+    width: 90%;
+  }
+
+  .end-content p {
+    font-size: 1rem;
   }
 
   .support {
