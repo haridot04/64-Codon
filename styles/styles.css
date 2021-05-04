@@ -750,6 +750,9 @@ footer {
   p {
     font-size: 0.7rem;
   }
+  i {
+    font-size: 0.7rem;
+  }
   .video-bg {
     display: none;
   }
@@ -815,7 +818,11 @@ footer {
   }
 
   .end-content p {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .call-button {
+    width: 75%;
   }
 
   .support {
