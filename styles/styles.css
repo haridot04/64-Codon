@@ -277,7 +277,14 @@ video {
 .mission h3 {
   color: #fff;
 }
+.vision ul li {
+  list-style: none;
+  color: #fff;
+}
 
+.vision ul {
+  padding-top: 2%;
+}
 .journey {
   margin: 5% 0;
   padding: 0 2%;
@@ -871,11 +878,6 @@ footer {
 
   .mySlides {
     width: 95%;
-  }
-
-  .mySlides .vision ul li {
-    list-style: none;
-    color: #fff;
   }
 
   .contact-us {
