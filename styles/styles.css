@@ -45,7 +45,6 @@ em {
   font-style: normal;
 }
 
-
 nav {
   position: fixed;
   display: flex;
@@ -138,6 +137,7 @@ nav {
   position: relative;
   margin: auto;
   height: 98vh;
+  z-index: -1000;
 }
 
 .banner-flex {
@@ -202,8 +202,8 @@ video {
 }
 
 .end-content p,
-h3,
-h5 {
+.end-content h3,
+.end-content h5 {
   padding: 1%;
 }
 
@@ -216,6 +216,11 @@ h5 {
   min-height: 20vh;
   background-color: #00597b;
   text-align: center;
+}
+
+.support h5 {
+  font-size: 1.2rem;
+  color: #fff;
 }
 
 .support-icons {
@@ -249,10 +254,12 @@ h5 {
 
 .about-logo {
   width: 40%;
+  text-align: center;
 }
 
 .about-logo img {
   width: 30rem;
+  padding-left: 1%;
 }
 
 .founded {
@@ -830,6 +837,10 @@ footer {
     min-height: auto;
   }
 
+  .support h5 {
+    font-size: 0.9rem;
+  }
+
   .support-icons {
     margin-top: 10px;
   }
@@ -862,6 +873,11 @@ footer {
     width: 95%;
   }
 
+  .mySlides .vision ul li {
+    list-style: none;
+    color: #fff;
+  }
+
   .contact-us {
     padding: 10% 2%;
   }
@@ -890,6 +906,7 @@ footer {
   }
 
   .footer-right h3 {
+    text-align: right;
     font-size: 1rem;
   }
 
