@@ -54,6 +54,7 @@ nav {
   align-items: center;
   min-height: 5vh;
   width: 100%;
+  z-index: 100;
 
   /* background-color: #000000; */
 }
@@ -137,7 +138,9 @@ nav {
   position: relative;
   margin: auto;
   height: 98vh;
-  z-index: -1000;
+  width: 40%;
+  float: left;
+  z-index: 10;
 }
 
 .banner-flex {
@@ -681,7 +684,7 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  z-index: -1000;
+  z-index: 1;
 }
 .count-particles {
   background: #000022;
@@ -772,7 +775,7 @@ footer {
   }
 
   .banner {
-    /* height: 60vh; */
+    width: 100%;
   }
 
   #particles-js {
