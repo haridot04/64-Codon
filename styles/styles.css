@@ -13,13 +13,13 @@ body {
 
 h2 {
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.5rem;
   color: #572e91;
 }
 
 h3 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.3rem;
   color: #562e90;
 }
@@ -29,13 +29,13 @@ i {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.1rem;
   color: #2f2f2f;
 }
 
 h5 {
-  font-weight: 300;
+  font-weight: 400;
   color: #00aeef;
   font-size: 1rem;
 }
@@ -94,7 +94,7 @@ nav {
 .nav-links a {
   text-decoration: none;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   margin: 2rem;
   color: #00aeef;
 }
