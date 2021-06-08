@@ -30,7 +30,7 @@ i {
 
 p {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #2f2f2f;
 }
 
@@ -202,6 +202,8 @@ video {
 .end-content {
   padding: 5% 2% 2% 2%;
   width: 70%;
+  display: flex;
+  flex-direction: column;
 }
 
 .end-content p,
@@ -620,6 +622,10 @@ textarea {
   border-radius: 15px;
 }
 
+.textarea {
+  margin: 0;
+}
+
 /* Timeline Style Ends */
 
 /* Slideshow container */
@@ -765,7 +771,7 @@ footer {
     overflow-x: hidden;
   }
   p {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   i {
     font-size: 0.7rem;
@@ -835,7 +841,7 @@ footer {
   }
 
   .end-content p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .call-button {
