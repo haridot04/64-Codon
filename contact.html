@@ -57,7 +57,9 @@
         </div>
 
         <div class="header-right">
-          <a class="contact-link" href="index.html#contact-us"><b> Contact</b> Us</a>
+          <a class="contact-link" href="index.html#contact-us"
+            ><b> Contact</b> Us</a
+          >
           <div class="burger">
             <div class="line1"></div>
             <div class="line2"></div>
@@ -71,21 +73,81 @@
       <div class="heading-content">
         <div class="heading-flex">
           <h3><b>64C</b></h3>
-          <h3 style="padding-top: 0">HBS</h3>
+          <h3 style="padding-top: 0; "">
+            ContactUs
+          </h3>
         </div>
       </div>
 
       <div class="end-content">
-        <p>
+        <div class="contact-us" id="contact-us">
+          <h2><em>Contact</em> Us</h2>
+          <form action="">
+            <div class="form-div">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                autocomplete="off"
+              />
+              <input
+                type="text"
+                id="companyName"
+                name="companyName"
+                placeholder="Company name"
+                autocomplete="off"
+              />
+            </div>
 
-            Global Researchers work hard in translating the research innovations, products and services, to benefit larger communities. For India also to benefit from these innovations and products, HBS from the multi-ethnic Indian genotype is essential. 64 Codon aims to be the market place for tissue from the multi-ethnic Asian Indian populations. We are connected in an open network to hospitals and laboratories, and growing the number and varieties of HBS which are ethically collected, anonymized, curated and stored for use by researchers.    
+            <h5>I am a</h5>
+            <div class="form-div custom-radio">
+              <input
+                type="radio"
+                id="channelPartner"
+                name="radio"
+                value="channelPartner"
+                checked
+              />
+              <label for="channelPartner">
+                <span>
+                  <img src="asset/images/tick(1).png" alt="Checked Icon" />
+                </span>
+              </label>
+              <h5>Channel Partner</h5>
+              <input type="radio" id="endUser" name="radio" value="endUser" />
+              <label for="endUser">
+                <span>
+                  <img src="asset/images/tick(1).png" alt="Checked Icon" />
+                </span>
+              </label>
+              <h5>End User</h5>
+            </div>
 
-        </p>
-        
-          
-        </h5>
+            <div class="form-div">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <input
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Mobile Number"
+              />
+            </div>
 
-        
+            <textarea
+              name="message"
+              id="message"
+              cols="20"
+              rows="5"
+              value="Your message"
+              placeholder="Your Message"
+            ></textarea>
+            <br />
+            <div class="button">
+              <button class=""><h5>Submit</h5></button>
+            </div>
+          </form>
+        </div>
       </div>
 
       <footer>
@@ -95,7 +157,7 @@
             <a href=""
               ><i class="fa fa-twitter fa-lg" aria-hidden="true"></i
             ></a>
-            
+
             <a href=""
               ><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i
             ></a>

@@ -837,6 +837,7 @@ footer {
   }
 
   .end-content {
+    padding: 5% 2% 2% 4%;
     width: 90%;
   }
 
@@ -864,6 +865,10 @@ footer {
     height: 2rem;
   }
 
+  .about {
+    padding: 5% 4%;
+  }
+
   .about-content {
     width: 100%;
   }
@@ -885,11 +890,12 @@ footer {
   }
 
   .mySlides {
+    padding: 5% 4%;
     width: 95%;
   }
 
   .contact-us {
-    padding: 10% 2%;
+    padding: 10% 4%;
   }
 
   .form-div {
