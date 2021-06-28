@@ -110,6 +110,10 @@ nav {
   display: none;
 }
 
+.contact-us {
+  width: 65%;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -128,7 +132,7 @@ nav {
 
 .hr-tag hr {
   background-color: #572e91;
-  width: 98%;
+  width: 96%;
   margin: auto;
 }
 
@@ -278,9 +282,14 @@ video {
   text-align: center;
 }
 
-.vision h3,
-.mission h3 {
-  color: #fff;
+.vision-mission {
+  padding: 5% 2%;
+  display: flex;
+}
+
+.vision,
+.mission {
+  width: 50%;
 }
 .vision ul li {
   list-style: none;
@@ -290,6 +299,14 @@ video {
 .vision ul {
   padding-top: 2%;
 }
+
+.mission h3 {
+  text-align: right;
+}
+.mission p {
+  text-align: right;
+}
+
 .journey {
   margin: 5% 0;
   padding: 0 2%;
@@ -304,6 +321,17 @@ video {
   color: #fff;
 }
 
+.con-add {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 2%;
+  text-align: right;
+}
 /* TimeLine styles Starts */
 
 .hr-time {
@@ -869,6 +897,17 @@ footer {
     padding: 5% 4%;
   }
 
+  .vision-mission {
+    padding: 5% 4%;
+    display: block;
+  }
+
+  .vision,
+  .mission {
+    width: 100%;
+    padding: 2% 0%;
+  }
+
   .about-content {
     width: 100%;
   }
@@ -883,10 +922,10 @@ footer {
   }
 
   .mission h3 {
-    text-align: right;
+    text-align: left;
   }
   .mission p {
-    text-align: right;
+    text-align: left;
   }
 
   .mySlides {
@@ -895,7 +934,17 @@ footer {
   }
 
   .contact-us {
-    padding: 10% 4%;
+    padding: 10% 4% 5% 4%;
+    width: 100%;
+  }
+
+  .con-add {
+    display: block;
+  }
+
+  .address {
+    text-align: left;
+    padding: 0% 4% 4% 4%;
   }
 
   .form-div {
