@@ -439,14 +439,20 @@ video {
 }
 .timeline li:nth-child(even) .time {
   position: absolute;
-  top: 30px;
+  top: 12px;
   left: -80px;
   margin: 0;
   color: #7c7c7c;
 }
 
 .timeline li:nth-child(3) .time {
-  top: 58px;
+  top: 35px;
+}
+.timeline li:nth-child(4) .time {
+  top: 59px;
+}
+.timeline li:nth-child(5) .time {
+  top: 35px;
 }
 
 @media (max-width: 1200px) {
@@ -495,6 +501,18 @@ video {
     font-size: 0.8rem;
   }
 
+  .timeline li:nth-child(3) .time {
+    top: 25px;
+  }
+
+  .timeline li:nth-child(4) .time {
+    top: 43px;
+  }
+
+  .timeline li:nth-child(5) .time {
+    top: 25px;
+  }
+
   .timeline li:nth-child(odd):before {
     top: 12px;
   }
@@ -523,12 +541,22 @@ video {
     font-size: 0.7rem;
   }
 
+  .timeline li:nth-child(2) .time {
+    top: 22px;
+  }
+  .timeline li:nth-child(3) .time {
+    top: 22px;
+  }
+  .timeline li:nth-child(4) .time {
+    top: 36px;
+  }
+
   .timeline li:nth-child(odd):before {
     top: 10px;
   }
 
   .timeline li:nth-child(even):before {
-    top: 10px;
+    top: 24px;
   }
 
   .timeline li:nth-child(3):before {
@@ -542,9 +570,12 @@ video {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   .timeline:before {
     height: 22rem;
+  }
+  .timeline li:nth-child(3) .time {
+    top: 35px;
   }
   .timeline li:nth-child(even):before {
     top: 24px;
@@ -569,15 +600,32 @@ video {
     font-size: 0.5rem;
   }
 
+  .timeline li:nth-child(2) .time {
+    top: 17px;
+  }
+  .timeline li:nth-child(3) .time {
+    top: 26px;
+  }
+  .timeline li:nth-child(4) .time {
+    top: 28px;
+  }
+
   .timeline li:nth-child(odd):before {
     top: 6px;
   }
 
   .timeline li:nth-child(even):before {
-    top: 25px;
+    top: 16px;
   }
 
   .timeline li:nth-child(3):before {
+    top: 26px;
+  }
+
+  .timeline li:nth-child(4):before {
+    top: 26px;
+  }
+  .timeline li:nth-child(5):before {
     top: 26px;
   }
 }
