@@ -824,6 +824,12 @@ footer {
   font-size: 0.8rem;
 }
 
+.footer-right a {
+  text-decoration: none;
+  color: #9f9f9f;
+  font-size: 0.8rem;
+}
+
 .icons a i {
   margin: 10px 5px 0 0;
   color: #717171;
