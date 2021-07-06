@@ -141,7 +141,7 @@ nav {
   align-items: center;
   position: relative;
   margin: auto;
-  height: 98vh;
+  height: 80vh;
   width: 40%;
   float: left;
   z-index: 10;
@@ -186,7 +186,7 @@ video {
   align-items: center;
   position: relative;
   margin: auto;
-  height: 25vh;
+  height: 45vh;
   background-image: url(../asset/images/bg\ enduser.jpg);
   background-size: cover;
 }
@@ -204,7 +204,7 @@ video {
 }
 
 .end-content {
-  padding: 5% 2% 2% 2%;
+  padding: 2% 2% 2% 2%;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -293,7 +293,7 @@ video {
 }
 
 .vision h3 {
-  color: #fff;
+  color: #572e91;
 }
 .vision ul li {
   list-style: none;
@@ -820,7 +820,7 @@ canvas {
   /* display: none; */
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 80vh;
   background-color: #fcfcfc;
   background-image: url("");
   background-repeat: no-repeat;
@@ -1059,6 +1059,10 @@ footer {
   .address {
     text-align: left;
     padding: 0% 4% 4% 4%;
+  }
+
+  .heading-content {
+    height: 20vh;
   }
 
   .youtube-video {
