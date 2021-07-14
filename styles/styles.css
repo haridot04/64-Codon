@@ -60,7 +60,7 @@ nav {
 }
 
 .solid-nav {
-  background-color: #572e91;
+  background-color: white;
   transition: background-color 0.2s linear;
 }
 
@@ -243,7 +243,7 @@ video {
 
 .support-icons img {
   height: 4rem;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .about {
@@ -318,7 +318,7 @@ video {
   justify-content: left;
   align-items: center;
   height: 15vh;
-  background-image: url(../asset/images/journey-bg.png);
+  background-color: #00597b;
 }
 
 .journey h2 {
