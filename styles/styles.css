@@ -282,19 +282,50 @@ video {
   text-align: center;
 }
 
+.outer-radius {
+  display: grid;
+  padding: 0.5rem;
+  border: 2px solid #00597b;
+  background-color: #00597b;
+  margin-bottom: 5%;
+}
+.outer-radius1 {
+  width: 50%;
+  display: grid;
+  padding: 0.8rem;
+  border: 2px solid #00597b;
+  background-color: #00597b;
+}
+.outer-radius2 {
+  width: 50%;
+  display: grid;
+  padding: 0.8rem;
+  border: 2px solid #00597b;
+  background-color: #00597b;
+}
+
 .vision-mission {
-  padding: 5% 2%;
   display: flex;
 }
 
 .vision,
 .mission {
-  width: 50%;
+  /* width: 50%; */
+  padding: 5% 2%;
+  background-color: #fff;
+  border-radius: 0.8rem;
+  border: inherit;
 }
 
 .vision h3 {
+  text-align: center;
   color: #572e91;
+  padding-bottom: 2%;
 }
+.vision p {
+  text-align: center;
+}
+
 .vision ul li {
   list-style: none;
   color: #fff;
@@ -305,10 +336,11 @@ video {
 }
 
 .mission h3 {
-  text-align: right;
+  text-align: center;
+  padding-bottom: 2%;
 }
 .mission p {
-  text-align: right;
+  text-align: center;
 }
 
 .journey {
@@ -1011,17 +1043,6 @@ footer {
     padding: 5% 4%;
   }
 
-  .vision-mission {
-    padding: 5% 4%;
-    display: block;
-  }
-
-  .vision,
-  .mission {
-    width: 100%;
-    padding: 2% 0%;
-  }
-
   .about-content {
     width: 100%;
   }
@@ -1030,16 +1051,14 @@ footer {
     display: none;
   }
 
+  .outer-radius1,
+  .outer-radius2 {
+    width: 100%;
+  }
+
   .vision-mission {
     display: flex;
     flex-direction: column;
-  }
-
-  .mission h3 {
-    text-align: left;
-  }
-  .mission p {
-    text-align: left;
   }
 
   .mySlides {
